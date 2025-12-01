@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and local history
+logs/
+*.log
+
+# Python cache files
+.pytest_cache/
+
+# Database
+*.sqlite3
+
+# Data files / Datasets (do not commit sample or real data)
+cleanDataset/
+poisonedDataset/
+PoisonedSamples/
+librerie/olivander/pe_folder/samples/*
+managingDataset/
+dataset_lief.pickle
+*.jsonl
+*metadata.csv
+
+# Models and weights
+# models/*.h5
+# models/*.hdf5
+# models/*.pb
+# models/*.ckpt
+# models/*.tflite
+
+# Large audio / images / binary files
+*.dat
+*.bin
+
+# Configuration with secrets
+config.ini
+.env
+
+# Temporary files
+*.tmp
+*.swp
+
+# Other
+.vscode/
+node_modules/
+
+# Keep README, LICENSE, requirements and source code by default
+.groupedtimelineinclude
+librerie/olivander/pe_folder/samples.csv
+librerie/olivander/pickle/counterfactuals.pickle
